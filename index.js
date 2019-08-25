@@ -12,7 +12,7 @@ var nowServing = arr =>{
   }else{
     return `Currently serving ${arr.slice(0,1)}.`
   }
-  return arr
+  return arr.slice(1)
 }
 
 var currentLine = arr =>{

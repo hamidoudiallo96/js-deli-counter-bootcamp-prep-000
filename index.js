@@ -1,6 +1,6 @@
 var katzDeliLine = [];
 
-var takeANumber = (curr,name) =>{
-  return `Welcome, ${name}. You are number 1 in line.`
+var takeANumber = (cur,name) =>{
+  return `Welcome, ${name}. You are number ${cur} in line.`
 }
 

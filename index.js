@@ -8,7 +8,7 @@ var takeANumber = (arr,name) =>{
 
 var nowServing = katzDeliLine =>{
   if(katzDeliLine.length === 0){
-    return "There is nobody waititng to be served"
+    return "There is nobody waititng to be served!"
   }else{
     return katzDeliLine.unshift()
   }

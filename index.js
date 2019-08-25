@@ -15,5 +15,11 @@ var nowServing = katzDeliLine =>{
   
 }
 
+var currentLine = arr =>{
+  for(let i =0; i<arr.length;i++){
+    return 
+  }
+}
+
 
 

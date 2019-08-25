@@ -19,7 +19,7 @@ var nowServing = arr =>{
 
 var currentLine = arr =>{
   let j;
-  let myString = "The line is currently:";
+  let myString = "The line is currently: ";
   if(arr.length ===0){
     return "The line is currently empty."
   }else{

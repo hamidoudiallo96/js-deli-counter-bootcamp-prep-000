@@ -7,7 +7,7 @@ var takeANumber = (arr,name) =>{
 }
 
 var nowServing = arr =>{
-  let name = deliLine.shift()
+  let name = arr.shift()
   if(arr.length === 0){
     return "There is nobody waiting to be served!"
   }else{

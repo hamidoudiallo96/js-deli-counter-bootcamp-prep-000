@@ -6,11 +6,11 @@ var takeANumber = (arr,name) =>{
   return `Welcome, ${name}. You are number ${pos} in line.`
 }
 
-var nowServing = katzDeliLine =>{
-  if(katzDeliLine.length === 0){
+var nowServing = arr =>{
+  if(arr.length === 0){
     return "There is nobody waiting to be served!"
   }else{
-    return `Currently serving ${katzDeliLine.slice(0,1)}.`
+    return `Currently serving ${arr.slice(0,1)}.`
   }
   
 }

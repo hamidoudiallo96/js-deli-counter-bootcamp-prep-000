@@ -7,12 +7,14 @@ var takeANumber = (arr,name) =>{
 }
 
 var nowServing = arr =>{
+  let name = deliLine.shift()
   if(arr.length === 0){
     return "There is nobody waiting to be served!"
   }else{
-    return `Currently serving ${arr.slice(0,1)}.`
+    
+    return `Currently serving ${name}.`
   }
-  return arr.splice(1)
+
 }
 
 var currentLine = arr =>{

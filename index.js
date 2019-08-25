@@ -26,7 +26,7 @@ var currentLine = arr =>{
     for(let i =0; i<arr.length;i++){
     j = i+1
     if(i === 2){
-      myString+= `${j}. ${arr[i]} `
+      myString+= `${j}. ${arr[i]}`
     }else{
       myString+= `${j}. ${arr[i]}, `
     }

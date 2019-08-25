@@ -6,3 +6,8 @@ var takeANumber = (arr,name) =>{
   return `Welcome, ${name}. You are number ${pos} in line.`
 }
 
+var nowServing = katzDeliLine =>{
+  return katzDeliLine.unshift()
+  
+}
+

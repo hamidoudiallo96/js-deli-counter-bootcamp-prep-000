@@ -17,7 +17,7 @@ var nowServing = katzDeliLine =>{
 
 var currentLine = arr =>{
   for(let i =0; i<arr.length;i++){
-    return {The line is currently: 1. Ada, 2. Grace}
+    return The line is currently: ${}. Ada, 2. Grace
   }
 }
 

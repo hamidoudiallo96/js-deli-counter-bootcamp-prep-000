@@ -17,10 +17,12 @@ var nowServing = katzDeliLine =>{
 
 var currentLine = arr =>{
   let j;
+  let myString = "The line is currently: ";
   for(let i =0; i<arr.length;i++){
     j = i+1
-    return `The line is currently: ${j}.${arr[i]}, ${j+1}. ${arr[i+1]}`
+    myString+= `${j}. ${arr[i]}`
   }
+  return myString;
 }
 
 
